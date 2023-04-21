@@ -1,0 +1,66 @@
+.nav-bar{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+     padding: 1rem 1rem;
+}
+
+/*So in summary, display: flex is used to create a flex container, while flex: 1 is used to control the size and positioning of child elements within the flex container.*/
+
+.nav-bar-links{
+     flex:1;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+}
+
+.nav-bar-logo{
+     margin-right: 1rem
+}
+
+.nav-bar-logo img{
+     width:60px;
+     height:16px;
+}
+
+.nav-bar-links-container{
+     display:flex;
+     flex-direction: row;
+     justify-content: center;
+     margin-left: 100px;
+}
+
+.nav-bar-links-signup{
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     margin-left: auto;
+}
+
+.nav-bar-links-signup button{
+     padding: 0.5rem 3rem;
+     color: #FFFFFF;
+     font-family: var(--font-family);
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 25px;
+     background: transparent;
+     border: 2px solid #FFFFFF;
+     border-radius: 25px;
+     cursor:pointer;
+}
+
+.nav-bar-links-container p,
+.nav-bar-links-signup p{
+     color: #FFFFFF;
+     font-family: var(--font-family);
+     font-weight: 300;
+     font-size: 17px;
+     line-height: 25px;
+     text-transform: capitalize;
+
+     margin: 0 1rem;
+
+     cursor: pointer;
+}
