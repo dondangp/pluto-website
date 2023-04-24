@@ -6,7 +6,8 @@
 }
 
 body {
-     background: var(--color-bg);
+     /* background: var(--color-bg); */
+     font-family: var(--font-family);
 }
 
 a {
@@ -18,10 +19,21 @@ a {
      background-image: url(./assets/Group\ 188.svg);
      background-size: cover;
      background-position: center;
+     display: flex;
+     flex-direction: column;
+     position: relative;
      height: 100vh;
      width:100%;
      background-repeat: no-repeat;
 }
+
+.centre-container{
+     display: flex;
+     justify-content: center;
+     flex-grow: 1;     
+     align-items: center;
+}
+
 
 .scale-up-center {
 	-webkit-animation: scale-up-center 0.3s cubic-bezier(0.785, 0.135, 0.150, 0.860) both;

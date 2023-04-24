@@ -1,0 +1,80 @@
+.cta{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: #FFFFFF;
+}
+
+.cta-container{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     width: 50%;
+}
+
+.cta-connect {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+.cta-text{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+
+     font-family: var(--font-family);
+     font-size: 2rem;
+     font-weight: 400;
+     color: #F52683;
+}
+
+.cta-connect-sphere{
+     height: 7rem;
+     width: 7rem;
+     align-items: center;
+     border-radius: 50%;
+     margin:1rem;
+     background-color: #F52683;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+
+.cta-connect.pink .cta-connect-sphere{
+     background-color: var(--color-pink);
+}
+
+.cta-connect.pink .cta-text {
+     color: var(--color-pink);
+}
+
+.cta-connect.blue .cta-connect-sphere{
+     background-color: var(--color-blue);
+}
+
+.cta-connect.blue .cta-text {
+     color: var(--color-blue);
+}
+
+.cta-connect.yellow .cta-connect-sphere{
+     background-color: var(--color-yellow);
+}
+
+.cta-connect.yellow .cta-text{
+     color: var(--color-yellow);
+}
+
+.cta-connect-sphere img {
+     --size: 50%;
+     height: var(--size);
+     width: var(--size);
+}
+
+.cta-subtext {
+     text-align: center;
+}

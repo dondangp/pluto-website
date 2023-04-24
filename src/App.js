@@ -12,7 +12,9 @@ const App = () => {
 
                <div className='header-bg'>
                     <Navbar />
-                    <Header />
+                    <div className='centre-container'>
+                         <Header />
+                    </div>
 
                </div>
                <Intro />
