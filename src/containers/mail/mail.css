@@ -1,0 +1,7 @@
+.mail{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-image: url('../../assets/mail_bg.svg');
+     padding: 3rem 5rem;
+}

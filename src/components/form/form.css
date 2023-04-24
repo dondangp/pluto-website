@@ -1,0 +1,45 @@
+.mail-container{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     padding: 4rem;
+     background: #D3DFED;
+     border-radius: 1rem;
+     gap:1.5rem;
+}
+
+.mail-title{
+     font-weight: 700;
+     font-size: 1.75rem;
+     text-align: center;
+     color: #031B34;
+}
+
+.mail-form{
+     display: flex;
+     flex-direction: row;
+     gap:1rem
+}
+
+
+/* [] allows you to target SPECIFIC attributes*/
+
+.mail-form input[type="text"] {
+     background: #fff;
+     border: 0;
+     border-radius: 1.5rem;
+     font-family: inherit;
+     padding: 0.5rem 12rem 0.5rem 2rem;
+}
+
+.mail-form input[type="button"] {
+     font-family: inherit;
+     font-weight: 700;
+     border-radius: 1.5rem;
+     padding: 1rem 2rem;
+     background-color: #5836E5;
+     border:0;
+     color: #fff;
+}
