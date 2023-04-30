@@ -15,6 +15,10 @@ a {
      text-decoration: none;
 }
 
+.App {
+     overflow-x: hidden;
+}
+
 .header-bg {
      background-image: url(./assets/Group\ 188.svg);
      background-size: cover;
