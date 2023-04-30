@@ -29,7 +29,7 @@ const Community = () => {
 						</ul>
 					</section>
 					<section className="content-ui-card">
-						<div className="quote-icon">💬</div>
+						<div className="quote-icon">icon</div>
 						<div className="quote-container">
 							<div className="quote-symbol left">“</div>
 							<div className="quote-text">Join my table! Accounting 2301 session happening right now.</div>

@@ -23,7 +23,7 @@ const App = () => {
                <Mail />
 
                <Features />
-
+               <Footer />
                {/* <Intro /> */}
 
           </div>
