@@ -20,7 +20,7 @@ const Header = () => {
         <h1>This is Plut</h1>
       </div>
       <div className='header-subtitle'>
-        <h2>connect. grow. explore</h2>
+        <h2>connect. grow. explore.</h2>
       </div>
     </div>
   );
