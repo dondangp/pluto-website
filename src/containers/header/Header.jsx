@@ -1,19 +1,29 @@
-import React from 'react'
-import './header.css'
+import React, { useEffect } from 'react';
+import './header.css';
 
-const Header = () => {
-     return (
-          <div className='header'>
-               <div className='header-title'>
-                    <h1>This is pluto.</h1>
-               </div>
-               <div className='header-subtitle'>
-                    <h2>connect. grow. explore</h2>
-               </div>
+function App() {
+  useEffect(() => {
+    document.title = "Pluto Learning";
+  }, []);
 
-          </div>
-     )
-
+  // Rest of your component code
+  return (
+    <Header />
+    // JSX elements
+  );
 }
 
-export default Header
+const Header = () => {
+  return (
+    <div className='header'>
+      <div className='header-title'>
+        <h1>This is Plut</h1>
+      </div>
+      <div className='header-subtitle'>
+        <h2>connect. grow. explore</h2>
+      </div>
+    </div>
+  );
+}
+
+export default App;
